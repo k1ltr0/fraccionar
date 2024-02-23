@@ -15,6 +15,9 @@ const nextConfig = {
     formats: ["image/avif", "image/webp"],
     domains: [`${NEXT_PUBLIC_SUPABASE_ID}.supabase.co`],
   },
+  env: {
+    API_KEY: process.env.API_KEY
+  }
 };
 
 module.exports = nextConfig;

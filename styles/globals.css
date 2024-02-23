@@ -19,6 +19,34 @@ html {
   @apply flex-1 flex flex-col;
 }
 
+/* common */
+.title-l1 {
+  @apply text-3xl text-center py-4 mt-4;
+}
+
+.title-l2 {
+  @apply text-2xl text-center py-4 mt-4;
+}
+
+.btn {
+  @apply text-yellow-600;
+}
+
+.text-input {
+  @apply text-gray-50 bg-transparent border-gray-700 focus:outline-yellow-600 w-40 rounded-sm text-3xl;
+}
+/* /common */
+
+/* datatable */
+.data-table {
+  @apply divide-y divide-yellow-600 w-1/2 justify-center mx-auto mt-8;
+}
+
+.data-table .data-row {
+  @apply text-gray-900 dark:text-gray-100 text-center h-9 text-sm;
+}
+/* /datatable */
+
 @layer components {
   /* https://tailwindui.com/components/application-ui/elements/buttons */
 
